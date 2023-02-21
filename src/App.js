@@ -2,7 +2,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import Chat from "./components/Chat";
 import './App.css'
-const socket = io.connect("https://simple-chat-server-gamma.vercel.app/");
+const socket = io.connect("https://simple-chat-server-production.up.railway.app/");
 
 function App() {
   const [username, setUsername] = useState("");
